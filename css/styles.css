@@ -1,215 +1,179 @@
-body{
-    font-family: 'Raleway', sans-serif;
+body {
+  font-family: "Raleway", sans-serif;
 }
 
-h1,h2,h3,h4.h5,h6{
-
-    font-family: 'Montserrat', sans-serif;
+h1,
+h2,
+h3,
+h4.h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
 }
-
-
 
 h3 {
-
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
-
-
-#title{
-    background-color: #eb4559;
+#title {
+  background-color: #4556eb;
 }
-
 
 /* Headings */
-.big-heading{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 3.5rem;
-    line-height:1.5;
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
-
-
-
-
-p{
-    color: #8f8f8f;
-
+p {
+  color: #8f8f8f;
 }
-
 
 .container-fluid {
-    padding:3% 15% 7%;
-    
+  padding: 3% 15% 7%;
 }
-
 
 /* Navigation Bar */
 
 .navbar {
-    padding:0 0 2.5rem;
+  padding: 0 0 2.5rem;
 }
 
-
-
-
-.navbar-brand{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2.5rem;
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
 }
 
 .nav-item {
-    margin: 0px 18px;
+  margin: 0px 18px;
 }
 
-.nav-link{
-    font-size: 1.2rem;
-    
+.nav-link {
+  font-size: 1.2rem;
 }
 
 /* Button */
 
-.download-btn{
-    margin: 5% 3% 5% 0
+.download-btn {
+  margin: 5% 3% 5% 0;
 }
 
 /* Title-Image */
 
-.phone-dog{
-    width: 60%;
-    -ms-transform: rotate(20deg); /* IE 9 */
-    transform: rotate(20deg);
-    position: absolute;
-    right: 30%;
-    
-    
+.phone-dog {
+  width: 60%;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  transform: rotate(20deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* Feature Section */
 
 #features {
-    background-color: white;
-    padding: 7% 15%;
-    position: relative;
-    z-index: 1;
-    
+  background-color: white;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
 }
 
 .feature-box {
-
-    text-align: center;
-    padding: 5%;    
+  text-align: center;
+  padding: 5%;
 }
 
 .icon {
-    color: #eb4559;
-    margin-bottom: 1rem;
+  color: #4556eb;
+  margin-bottom: 1rem;
 }
 
-.icon:hover{
-    color: #d80f26;
+.icon:hover {
+  color: #d80f26;
 }
 
 /* Testimonial */
 
 #testimonials {
-    color: white;
-    text-align: center;
-    background-color: #eb4559;
+  color: white;
+  text-align: center;
+  background-color: #4556eb;
 }
 
-.testimonials-image{
-    width: 15%;
-    border-radius:100%;
-    margin: 20px;
+.testimonials-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
 }
 
 #press {
-    background-color: #eb4559;
-    text-align: center;
-    padding-bottom: 3%;
-
+  background-color: #4556eb;
+  text-align: center;
+  padding-bottom: 3%;
 }
 
-.press-logo{
-    width: 15%;
-    margin: 20px 20px 50px;
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
 
-.carousel-item{
-    padding: 7% 15%;
+.carousel-item {
+  padding: 7% 15%;
 }
-
 
 /* Pricing Section */
 
-#pricing{
-    padding: 100px;
-    text-align: center;
+#pricing {
+  padding: 100px;
+  text-align: center;
 }
 
-.pricing-column{
-    padding: 3% 2%;
+.pricing-column {
+  padding: 3% 2%;
 }
 
-
-.price-text{
-    font-size: 3rem;
-    line-height: 1.5;
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 /* Call to Action */
 
-#cta{
-    background-color: #eb4559;
-    color: white;
-    padding: 12%;
-    text-align: center;
+#cta {
+  background-color: #4556eb;
+  color: white;
+  padding: 12%;
+  text-align: center;
 }
 
-.cta-h3{
-    font-size: 3rem;
-    line-height: 1.5;
+.cta-h3 {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 /* Footer Section */
 
-#footer{
-    padding: 6%;
-    background-color: white;
-    text-align: center;
+#footer {
+  padding: 6%;
+  background-color: white;
+  text-align: center;
 }
 
-.foot-icon{
-    
-    margin:10px;
-    padding-bottom: 30px;
-    
+.foot-icon {
+  margin: 10px;
+  padding-bottom: 30px;
 }
-
-
-
-
 
 /* Media Query Breakpoint */
 
-@media (max-width:1028px){
-
-#title{
+@media (max-width: 1028px) {
+  #title {
     text-align: center;
-}
+  }
 
-
-.phone-dog{
+  .phone-dog {
     position: static;
     -ms-transform: rotate(0deg); /* IE 9 */
     transform: rotate(0deg);
+  }
 }
-
-
-
-
-}
-
-
